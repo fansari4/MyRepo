@@ -76,7 +76,7 @@ namespace MyRepo.Controller
                 if(file.FileName.Equals(FileName))
                 {
                     file.Decompress();
-                    return File(file.Content, file.ContentType, FileName + file.ContentType);
+                    return File(file.Content, file.ContentType, FileName );
                 }
             }
             return NotFound();
