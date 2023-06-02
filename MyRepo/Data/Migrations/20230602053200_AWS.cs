@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace MyRepo.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class DB : Migration
+    public partial class AWS : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

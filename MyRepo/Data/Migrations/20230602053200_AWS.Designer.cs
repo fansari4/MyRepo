@@ -12,8 +12,8 @@ using MyRepo.Data;
 namespace MyRepo.Data.Migrations
 {
     [DbContext(typeof(ModelDbContext))]
-    [Migration("20230514011220_DB")]
-    partial class DB
+    [Migration("20230602053200_AWS")]
+    partial class AWS
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
